@@ -43,6 +43,9 @@ D. Re-ran npm test and test passed (Green step).
 ### 5. Fifth Test Case for `comma and newline as delimiters should be handled correctly`
 @Looping (A, B, C, D) steps
 
+### 6. Sixth Test Case for `custom delimiter should be supported`
+@Looping (A, B, C, D) steps
+
 ---
 
 ## Getting Started
