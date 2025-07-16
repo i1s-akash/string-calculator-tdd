@@ -3,7 +3,7 @@ function add(pNum){
         return 0;
 
     if(pNum.includes(",")){
-        const numArr = pNum.split(",");
+        const numArr = pNum.split(/,|\n/);
         const sum = numArr.reduce((acc, ele) => {
             acc += parseInt(ele);
             return acc;

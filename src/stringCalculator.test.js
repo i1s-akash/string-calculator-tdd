@@ -15,3 +15,7 @@ test('two comma-separated numbers should be added', () => {
 test('multiple comma-separated numbers should be added', () => {
     expect(add("1,2,3")).toBe(6)
 })
+
+test('comma and newline as delimiters should be handled correctly', () => {
+    expect(add("1\n2,3")).toBe(6)
+})

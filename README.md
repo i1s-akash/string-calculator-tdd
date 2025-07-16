@@ -40,6 +40,9 @@ D. Re-ran npm test and test passed (Green step).
 ### 4. Fourth Test Case for `multiple comma-separated numbers should be added`
 @Looping (A, B, C, D) steps
 
+### 5. Fifth Test Case for `comma and newline as delimiters should be handled correctly`
+@Looping (A, B, C, D) steps
+
 ---
 
 ## Getting Started
