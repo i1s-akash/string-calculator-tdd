@@ -18,8 +18,14 @@ function add(pNum) {
         pNum = parts[1]
     }
 
-    const parts = pNum.split(delimiter)
-    return parts.reduce((acc, num) => acc += parseInt(num), 0);
+    const numArr = pNum.split(delimiter).map(Number)
+    const negativeNumArr = numArr.filter((num) => num < 0);
+
+    if (negativeNumArr.length > 0) {
+        throw new Error(`negative numbers not allowed as ${negativeNumArr.join(", ")}`);
+    }
+
+    return numArr.reduce((acc, num) => acc += num, 0);
 }
 
 module.exports = add;

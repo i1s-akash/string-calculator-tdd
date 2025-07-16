@@ -46,6 +46,9 @@ D. Re-ran npm test and test passed (Green step).
 ### 6. Sixth Test Case for `custom delimiter should be supported`
 @Looping (A, B, C, D) steps
 
+### 7. Seventh Test Case for `negative number should throw an exception`
+@Looping (A, B, C, D) steps
+
 ---
 
 ## Getting Started
