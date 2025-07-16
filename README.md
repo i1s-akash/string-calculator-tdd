@@ -14,7 +14,7 @@ This repository contains the completed assessment for the String Calculator TDD,
 
 ## Step-by-Step Development
 
-### 1. Boilerplate Setup
+### 0. Boilerplate Setup
 
 - Created `README.md`
 - `npm init` to initiliaze `package.json`
@@ -24,11 +24,15 @@ This repository contains the completed assessment for the String Calculator TDD,
 - `yarn add -D jest` to add jest
 - `git init` to initiliaze it as git repository.
 
-### 2. First Test Case for `empty string should result in 0`
+### 1. First Test Case for `empty string should result in 0`
 A. Wrote a failing test case (Red step)
 B. Ran npm run test to confirm the test failed.
 C. Implemented logic in stringCalculator.js.
 D. Re-ran npm test and test passed (Green step).
+
+
+### 2. Second Test Case for `single number should result in the number itself`
+@Looping (A, B, C, D) steps
 
 ---
 
