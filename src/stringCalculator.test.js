@@ -5,5 +5,9 @@ test('empty string should result in 0', () => {
 })
 
 test('single number should result in the number itself', () => {
-    expect(add(1)).toBe(1)
+    expect(add("1")).toBe(1)
+})
+
+test('two comma-separated numbers should be added', () => {
+    expect(add("1,2")).toBe(3)
 })

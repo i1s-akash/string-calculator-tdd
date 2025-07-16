@@ -34,6 +34,9 @@ D. Re-ran npm test and test passed (Green step).
 ### 2. Second Test Case for `single number should result in the number itself`
 @Looping (A, B, C, D) steps
 
+### 3. Third Test Case for `two comma-separated numbers should be added`
+@Looping (A, B, C, D) steps
+
 ---
 
 ## Getting Started
