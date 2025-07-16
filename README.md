@@ -65,6 +65,6 @@ E. Optional: Refactored code while keeping tests green
 ---
 
 ## Getting Started
-- git clone
+- git clone https://github.com/i1s-akash/string-calculator-tdd.git
 - npm install or yarn install
 - npm run test or yarn test 
