@@ -24,7 +24,11 @@ This repository contains the completed assessment for the String Calculator TDD,
 - `yarn add -D jest` to add jest
 - `git init` to initiliaze it as git repository.
 
-### 2. First Test Case
+### 2. First Test Case for `empty string should result in 0`
+A. Wrote a failing test case (Red step)
+B. Ran npm run test to confirm the test failed.
+C. Implemented logic in stringCalculator.js.
+D. Re-ran npm test and test passed (Green step).
 
 ---
 
