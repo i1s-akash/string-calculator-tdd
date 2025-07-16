@@ -56,6 +56,9 @@ E. Optional: Refactored code while keeping tests green
 ### 9. Ninth Test Case for `numbers greater than 1000 should be ignored`
 @Looping (A, B, C, D, E) steps
 
+### 10. Tenth Test Case for `handles custom delimiter of any length enclosed in brackets`
+@Looping (A, B, C, D, E) steps
+
 ---
 
 ## Getting Started
