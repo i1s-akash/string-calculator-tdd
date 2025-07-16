@@ -29,6 +29,7 @@ A. Wrote a failing test case (Red step)
 B. Ran npm run test to confirm the test failed.
 C. Implemented logic in stringCalculator.js.
 D. Re-ran npm test and test passed (Green step).
+E. Optional: Refactored code while keeping tests green
 
 
 ### 2. Second Test Case for `single number should result in the number itself`
