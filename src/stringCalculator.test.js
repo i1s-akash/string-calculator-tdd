@@ -11,3 +11,7 @@ test('single number should result in the number itself', () => {
 test('two comma-separated numbers should be added', () => {
     expect(add("1,2")).toBe(3)
 })
+
+test('multiple comma-separated numbers should be added', () => {
+    expect(add("1,2,3")).toBe(6)
+})
