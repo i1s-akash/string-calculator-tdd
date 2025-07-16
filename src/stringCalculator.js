@@ -17,10 +17,13 @@ function add(pNum) {
         const delimiterLine = parts[0].slice(2);
         pNum = parts[1];
 
-        const match = delimiterLine.match(/^\[(.+)\]$/);
-        if (match) {
-            const customDelimiter = match[1].replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-            delimiter = new RegExp(customDelimiter);
+        const multipleDelimiters = delimiterLine.match(/\[(.+?)\]/g);
+        if (multipleDelimiters) {
+            const escapedDelimiters = multipleDelimiters.map(d =>
+                d.slice(1, -1).replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+            );
+            delimiter = new RegExp(escapedDelimiters.join('|'));
+            console.log("delimiter", delimiter)
         } else {
             delimiter = new RegExp(delimiterLine);
         }

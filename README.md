@@ -59,6 +59,9 @@ E. Optional: Refactored code while keeping tests green
 ### 10. Tenth Test Case for `handles custom delimiter of any length enclosed in brackets`
 @Looping (A, B, C, D, E) steps
 
+### 11. Last Test Case for `handles multiple custom delimiters like [*] and [%]`
+@Looping (A, B, C, D, E) steps
+
 ---
 
 ## Getting Started
