@@ -1,0 +1,19 @@
+{
+  "name": "string-calculator-tdd",
+  "version": "1.0.0",
+  "description": "\"String Calculator followed by TDD\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "\"Sttring",
+    "Calculator",
+    "TDD\""
+  ],
+  "author": "\"Akash Prajapati\"",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
