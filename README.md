@@ -48,6 +48,9 @@ E. Optional: Refactored code while keeping tests green
 @Looping (A, B, C, D) steps
 
 ### 7. Seventh Test Case for `negative number should throw an exception`
+@Looping (A, B, C, D, E) steps
+
+### 8. Eigth Test Case for `multiple negative numbers should throw an exception`
 @Looping (A, B, C, D) steps
 
 ---
