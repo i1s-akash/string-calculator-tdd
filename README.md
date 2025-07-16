@@ -53,6 +53,9 @@ E. Optional: Refactored code while keeping tests green
 ### 8. Eigth Test Case for `multiple negative numbers should throw an exception`
 @Looping (A, B, C, D) steps
 
+### 9. Ninth Test Case for `numbers greater than 1000 should be ignored`
+@Looping (A, B, C, D, E) steps
+
 ---
 
 ## Getting Started

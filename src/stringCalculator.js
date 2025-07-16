@@ -18,7 +18,7 @@ function add(pNum) {
         pNum = parts[1]
     }
 
-    const numArr = pNum.split(delimiter).map(Number)
+    const numArr = pNum.split(delimiter).map(Number).filter((num) => num <= 1000);
     const negativeNumArr = numArr.filter((num) => num < 0);
 
     if (negativeNumArr.length > 0) {
